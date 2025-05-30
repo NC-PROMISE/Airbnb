@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import icon1 from '../assets/Frame1.svg'
 import icon2 from '../assets/Vector-2.svg'
 import icon3 from '../assets/Vector-3.svg'
@@ -16,7 +16,7 @@ function Header() {
         <img src={icon1} alt="icon" className=''/>
     </div>
     
-    <div className='flex gap-4 border border-2 border-gray-200 w-90 px-2 py-2  m-auto rounded-full relative -left-20 shadow-md'>
+    <div className='flex gap-4  border-2 border-gray-200 w-90 px-2 py-2  m-auto rounded-full relative -left-20 shadow-md'>
         <span>Anywhere</span>
         <span >|</span>
         <span>Any week</span>
@@ -30,7 +30,7 @@ function Header() {
         <p>Airbnb your home </p>
         <img src={icon3} alt=" " className='h-8 w-5' />
     </div>
-      <div className='border flex gap-2 rounded-full px-2 relative -left-20 h-9 border-gray-200 shadow-md  relative'>
+      <div className='border flex gap-2 rounded-full px-2 relative -left-20 h-9 border-gray-200 shadow-md '>
            <button className=''> <img src={icon4} alt="" className='w-5'
            onClick={() => setshowDropdown(!showDropdown)}
            /></button>

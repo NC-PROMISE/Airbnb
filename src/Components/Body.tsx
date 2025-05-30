@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import pic1 from '../assets/grid/Image overlay.jpg'
 import pic2 from '../assets/grid/Image overlay-1.jpg'
 import pic3 from '../assets/grid/Image overlay-2.jpg'

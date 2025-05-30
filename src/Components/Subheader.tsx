@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import img1 from '../assets/Icon.svg'
 import img2 from '../assets/Icon-1.svg'
 import img3 from '../assets/Icon-2.svg'
@@ -67,7 +67,7 @@ function Subheader() {
                   <button className=' mt-5 filter brightness-0 invert grayscale contrast-1 hover:filter-none hover:border-b-2 ' >
                 <img className=' w-8 m-auto ' src={img12} alt="" />
                 <p className='text-[12px]'>Teehouses</p></button>
-                <div className=' border px-[-0.08px] py-[-0.08px]  m-auto rounded-full  '><img className='p-3 m-auto' src={img13} alt="" /></div>
+                <div className=' border px-[-0.08px] py-[-0.08px]  m-auto rounded-full p-3 h-10 w-10   '><img className=' m-auto  ' src={img13} alt="" /></div>
                 <div className='flex border gap-2 m-auto px-2 py-3 rounded-md '><img className=' w-3' src={img14} alt="" /><p >Filters</p></div>
         </div>
     </div>

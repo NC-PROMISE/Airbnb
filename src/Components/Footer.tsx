@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import icon from '../assets/chevron-down.svg' 
 import icon1 from '../assets/Vector (1).svg'
 import icon2 from '../assets/Frame.svg'

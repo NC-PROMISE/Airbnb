@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import facebook from '../assets/logins/Facebook.svg'
 import google from '../assets/logins/Google.svg'
 import apple from '../assets/logins/Apple.svg'
